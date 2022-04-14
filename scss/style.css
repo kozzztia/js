@@ -1,0 +1,24 @@
+html{
+    background: rgba(255, 255, 0, 0.116);
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    width: 100px;height: 50px;
+    background: #000;
+    color  :#fff;
+    margin: 1px;
+}
+
+.div{
+    background: red;
+    width: 100px;height:100px;
+}
+.rotate{
+    transition: 1s;
+    transform: rotate(360deg) scale(0.8);
+}
+.scale{
+    transition: 1s;
+    border-radius: 50%;
+}
